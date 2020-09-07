@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Include">
+      <UniqueIdentifier>{1c29e37b-e326-42b1-b1ca-04bb879ec22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.MainGame">
+      <UniqueIdentifier>{cb5ebd81-9b8f-4474-bf3e-25a57d09b37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameController">
+      <UniqueIdentifier>{b260d9d7-a6b6-45a3-805f-bf487472ef98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.StateObj">
+      <UniqueIdentifier>{9cea99c9-8e3b-4f33-a693-37237c31fc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Obj">
+      <UniqueIdentifier>{ea07c01a-2a0a-4382-af0f-3dcbd56aac38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameController\01.StateManager">
+      <UniqueIdentifier>{cf7efe15-7d93-478b-b2d8-7dd938579bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameController\02.DoubleBuffer">
+      <UniqueIdentifier>{a83254d7-d6ac-473e-8e5a-560501f6da25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameController\03.ObjFactory">
+      <UniqueIdentifier>{062a87d8-4dda-4770-934f-db24c64a9961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameController\04.CollisionManager">
+      <UniqueIdentifier>{2440f118-78d5-4e9c-8634-5c4d22d471e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameController\05.KeyManager">
+      <UniqueIdentifier>{64a99679-81d8-4fe3-ab08-d526407f5c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Obj\01.Player">
+      <UniqueIdentifier>{07e2e309-10f8-438a-9865-707baf11ceb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Map">
+      <UniqueIdentifier>{a3b48cc9-c67f-47a4-bf50-979b1696d3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Obj\03.Bullet">
+      <UniqueIdentifier>{5cb4d149-ef9d-487f-b798-c3568494c35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Obj\04.Enemy">
+      <UniqueIdentifier>{3c152fa2-73f2-445a-a7b7-57a5fbd71238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Obj\02.Tower">
+      <UniqueIdentifier>{10cd31c7-cfd9-474e-a0bd-6776c3638d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.StateObj\01.Menu">
+      <UniqueIdentifier>{860be60d-63ca-4168-8b9a-ab991395924c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.StateObj\02Game">
+      <UniqueIdentifier>{0651ce26-2737-4b92-b14b-e18eeb125bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.StateObj\03.END">
+      <UniqueIdentifier>{223a5cf8-82c4-4f01-b129-44b02ee830a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>소스 파일\01.GameController\01.StateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffer.cpp">
+      <Filter>소스 파일\01.GameController\02.DoubleBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjFactory.cpp">
+      <Filter>소스 파일\01.GameController\03.ObjFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>소스 파일\01.GameController\04.CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>소스 파일\01.GameController\05.KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StateObj.cpp">
+      <Filter>소스 파일\02.StateObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>소스 파일\02.StateObj\01.Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\02.StateObj\02Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\03.Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\03.Obj\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\03.Obj\03.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일\03.Obj\04.Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>소스 파일\04.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>소스 파일\03.Obj\02.Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="End.cpp">
+      <Filter>소스 파일\02.StateObj\03.END</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>소스 파일\01.GameController\01.StateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBuffer.h">
+      <Filter>소스 파일\01.GameController\02.DoubleBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>소스 파일\01.GameController\03.ObjFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>소스 파일\01.GameController\04.CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>소스 파일\01.GameController\05.KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StateObj.h">
+      <Filter>소스 파일\02.StateObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>소스 파일\02.StateObj\01.Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\02.StateObj\02Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\03.Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\03.Obj\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\03.Obj\03.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>소스 파일\03.Obj\04.Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>소스 파일\04.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>소스 파일\03.Obj\02.Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="End.h">
+      <Filter>소스 파일\02.StateObj\03.END</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
