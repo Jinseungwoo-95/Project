@@ -1,0 +1,35 @@
+﻿  BackGround.cpp
+  Bitmap.cpp
+  Boss.cpp
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\boss.cpp(219): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Bullet.cpp
+  Button.cpp
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\button.cpp(42): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\button.cpp(43): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  Character.cpp
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\character.cpp(66): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\character.cpp(81): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Character2.cpp
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\character2.cpp(161): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ClearScene.cpp
+  Cookie.cpp
+  Fire.cpp
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\fire.cpp(48): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\fire.cpp(49): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\fire.cpp(55): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\하나\desktop\쿠키런 (1)\쿠키런\fire.cpp(56): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Fire2.cpp
+  GameDirector.cpp
+  GameOverScene.cpp
+  GameScene.cpp
+  GameScene2.cpp
+  Main.cpp
+  Map.cpp
+  MenuScene.cpp
+  PrepareWnd.cpp
+  ScenenManager.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  WrappedWnd.cpp
+  코드를 생성하고 있습니다...
+  쿠키런.vcxproj -> C:\Users\하나\Desktop\쿠키런 (1)\x64\Debug\쿠키런.exe
